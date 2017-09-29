@@ -3,9 +3,9 @@ A set of matlab scripts and functions to analyse microscopy images of aerosol pa
 
 This script allows the user to select a .tif image (filename), then extracts all particles
 within the image. For each particle, the area and perimeter are
-calculated. Each particle is analyzed for distinct particles within the
-particle. The number of interior particles, as well as the sum of the
-interior particle area and perimeter are calculated. The script has three
+calculated. Each particle is analyzed for distinct regions within the
+particle. The number of interior regions, as well as the sum of the
+interior region area and perimeter are calculated. The script has three
 outputs, which appear in the directory where the script is run. 
 
 1) filename_segmentation.pdf shows the results of the initial particle
